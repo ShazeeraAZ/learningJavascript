@@ -7,3 +7,14 @@ function safrasmelly() {
     return room;
 }
 console.log(safrasmelly());
+
+
+function myFunction() {
+    var myVar = { "SomeProperty": "SomeValue" };
+
+    if (myVar == null) {
+        return false;
+    } else {
+        return true;
+    }
+}
