@@ -7,5 +7,3 @@ function safrasmelly() {
     return room;
 }
 console.log(safrasmelly());
-console.log("Hello");
-console.log("World");
