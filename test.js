@@ -27,7 +27,6 @@ function getTotalCalories() {
     inputCaloriesByDay("Sunday");
 };
 console.log(getTotalCalories());
-
 function getIdealCalories(){
     var idealDailyCalories=2000;
     return idealDailyCalories *7
@@ -52,7 +51,23 @@ function calculateHealthPlan(){
 console.log(calculateHealthPlan());
 
 
-
-
-
+console.log((5>2) && (3>1));
+console.log((3>4) || (2>1));
+console.log((2>4)||(6>10));
+console.log((7=="7")&&(3>2))
  
+var summerHeat = 40;
+var sunny = true;
+if (summerHeat>60) {
+    console.log("I will get a heatwave");
+}   else if (summerHeat>50) {
+    console.log("I will go for a swim");
+}
+    else if ((summerHeat>35)&& (!sunny)){
+        console.log("I am staying at home");
+    } else if((summerHeat>35)||(!sunny)) {
+        console.log("I am staying home");
+    } 
+
+
+
